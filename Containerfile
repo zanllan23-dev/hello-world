@@ -15,4 +15,4 @@ WORKDIR /app
 COPY --from=build /app/hello .
 
 EXPOSE 8080
-ENTRYPOINT ["/app/LAUNCHER"]
+ENTRYPOINT ["/app/hello"]
